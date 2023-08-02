@@ -38,6 +38,8 @@ namespace ConcatenarDiasDoAno
             }
 
             Console.WriteLine(calendario);
+
+            File.WriteAllText(@"C:\Users\Gabriel\Downloads\teste.txt", calendario);
         }
     }
 }
